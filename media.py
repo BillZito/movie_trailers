@@ -8,7 +8,7 @@ set to the corresponding descriptors passed through in the function description
 """
 
 
-class Movie():
+class Session():
     def __init__(self, movie_title, movie_storyline,
                  poster_image, trailer_youtube):
         self.title = movie_title

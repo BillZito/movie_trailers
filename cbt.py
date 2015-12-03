@@ -4,7 +4,7 @@ import media
 import fresh_tomatoes
 
 # create new instance of Movie with info about it and the links to picture/ vid
-toy_story = media.Movie(
+toy_story = media.Session(
     "Toy Story", "Toys Save Boys",
     "http://cdn.collider.com/wp-content/uploads/toy-story-poster1.jpg",
     "https://www.youtube.com/watch?v=KYz2wyBy3kc")
@@ -13,12 +13,12 @@ toy_story = media.Movie(
 # print toy_story.storyline
 
 # create instances of kung pow and school of rock
-kung_pow = media.Movie(
+kung_pow = media.Session(
     "Kung Pow Enter the Fist", "Spoof of action flick",
     "https://upload.wikimedia.org/wikipedia/en/5/54/Kungpow.jpg",
     "https://www.youtube.com/watch?v=GXrAYdSeWY8")
 
-school_of_rock = media.Movie(
+school_of_rock = media.Sesion(
     "School of Rock",
     "A really really good movie about music",
     "http://i.huffpost.com/gen/1946430/images/o-SCHOOL-OF-ROCK-facebook.jpg",
